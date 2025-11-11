@@ -10,8 +10,15 @@ def greet(name):
 def greet_with_default(name="programmer"):
     pass
     print(f"Hello, {name}!")
+
+
 def add(num1, num2):
     pass
+    return(num1 + num2)
+
 
 def halve(number):
     pass
+    if isinstance(number, (int, float)):
+        return number / 2
+    return None
